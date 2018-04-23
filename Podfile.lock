@@ -1,0 +1,28 @@
+PODS:
+  - MaterialComponents/BottomSheet (54.9.0):
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Math
+  - MaterialComponents/private/Application (54.9.0)
+  - MaterialComponents/private/KeyboardWatcher (54.9.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (54.9.0)
+
+DEPENDENCIES:
+  - MaterialComponents/BottomSheet (from `https://github.com/material-components/material-components-ios`, branch `develop`)
+
+EXTERNAL SOURCES:
+  MaterialComponents:
+    :branch: develop
+    :git: https://github.com/material-components/material-components-ios
+
+CHECKOUT OPTIONS:
+  MaterialComponents:
+    :commit: e09766d2d9ef411aba26107ac4bdc666c0d64135
+    :git: https://github.com/material-components/material-components-ios
+
+SPEC CHECKSUMS:
+  MaterialComponents: cb7e654084347ec7185d3cc8e5b3316cdbccdfa4
+
+PODFILE CHECKSUM: b2f60ef4ccfef62d3a37043f6ff13a0aab963ba4
+
+COCOAPODS: 1.4.0
